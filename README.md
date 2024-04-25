@@ -67,18 +67,21 @@ The analysis reveals insights such as:
 # Usage 💻
 To replicate the analysis or explore the data further, follow these steps:
 
-Clone this repository to your local machine.
-Install the required dependencies (list dependencies if applicable).
-Run the analysis scripts in the specified order.
-Explore the generated visualizations and insights.
-Modify the code as needed for your specific requirements.
+1. Clone this repository to your local machine.
+2. Install the required dependencies from the requirements.txt file with the prompt below:
+
+`python pip install -r requirements.txt`
+
+3. Run the analysis scripts in the specified order.
+4. Explore the generated visualizations and insights.
+5. Modify the code as needed for your specific requirements.
 
 # Contributing 🤝
 Contributions to this project are welcome! 
 If you have suggestions for improvements or new features, please open an issue or submit a pull request.
 
 # License 📄
-This project is licensed under the [license name] License - see the LICENSE file for details
+This project is licensed under the [MIT]() License.
 
-# Authur: 
+# Author: 
 Team Nobium
