@@ -1,4 +1,4 @@
-<h1 align='center'>Sales Analysis with Power BI 📊💼</h1>
+<h1 align='center'>Leveraging Data Insights for Sales Optimization in 2019 📊💼</h1>
 
 
 # Table of Contents 📜
@@ -26,9 +26,9 @@
 Sales analysis is crucial for understanding the performance of a business, identifying trends, and making informed decisions to optimize sales strategies. This project aims to analyze sales data to uncover patterns, correlations, and actionable insights.
 
 # Data Sources 📂
-The sales data collected for this analysis contains information such as sales transactions, product details, customer geographical details.
+The sales data collected for this analysis contains information such as sales transactions, product details and customer geographical details.
 
-The data for the first half of the year (January to June) was collected in excel and saved as csv files before management decided to use databases to store their data. The first six (6) months of the data was located on OneDrive while the last six (6) months was  in a remote database.
+The data for the first half of the year (January to June) was collected in excel and saved as csv files before management decided to use databases to store their data from the month of July to December. So we had the first six (6) months of the data located on OneDrive while the last six (6) months was  in a remote database.
 
  # Methodology
 CRISP-DM Framework 🔄
@@ -41,7 +41,7 @@ Modeling 🤖📈
 Evaluation 📝🔍 
 Deployment 🚀📊
 
-It is worthy to mention that with the exception of the modelling phase all other phases were used in this project. This is because the project's focus did not require modelling.
+It is worth mentioning that with the exception of the modelling and Evaluation phases all other phases were used in this project. This is because the project's focus did not require modelling, in effect there has not been any evaluation of any model.
 
 
 # Analysis 🔍
@@ -49,30 +49,30 @@ The analysis consists of several key steps:
 
 Data Cleaning and Preprocessing: Cleaning and preparing the raw sales data for analysis, including handling missing values, data formatting, and data transformation.
 
-Exploratory Data Analysis (EDA): Exploring the sales data to understand its distribution, trends, and relationships between variables. This includes visualizations such as histograms, scatter plots, and correlation matrices.
+Exploratory Data Analysis (EDA): Exploring the sales data to understand its distribution, trends, and relationships between variables. This includes visualizations such as histograms, pair plots, and correlation matrices.
 
 Sales Performance Metrics: Calculating key sales performance metrics such as total sales revenue, average order value, total quantity ordered and total unique product.
 
-Segment Analysis: Analyzing sales performance by different segments such as product categories, customer segments.
+Segment Analysis: Analyzing sales performance by different segments such as product categories and customer segments.
 
 
 
 # Results 📈
 The analysis reveals insights such as:
-- Peak Months: We observe peaks in sales during certain months, December, October, and April. These months likely correspond to increased demand due to factors like holidays, promotions, or seasonal trends.
-- Trough Months: During the months of June, August, and September. These months may represent periods of lower consumer spending or quieter seasons for the business.
-- Opportunities for Improvement: By analyzing seasonality in sales, the business can identify opportunities to capitalize on peak months and mitigate challenges during slower periods. This could involve adjusting marketing strategies, offering targeted promotions, or optimizing inventory management.
-- Overall, the month-over-month growth rates suggest that sales are increasing at a steady pace over the course of the year. This suggests that the business is making progress towards achieving its goals and objectives.
-- These findings indicate that the "Electronics" category generates higher revenue and has a significantly higher quantity ordered compared to the "Other" category. 
-- This suggests that electronics products are the main drivers of sales revenue and volume in the dataset.
+1. Peak Months: We observe peaks in sales during certain months, December, October, and April. These months likely correspond to increased demand due to factors like holidays, promotions, or seasonal trends.
 
+2. Trough Months: During the months of June, August, and September. These months may represent periods of lower consumer spending or quieter seasons for the business.
 
+3. Opportunities for Improvement: By analyzing seasonality in sales, the business can identify opportunities to capitalize on peak months and mitigate challenges during slower periods. This could involve adjusting marketing strategies, offering targeted promotions, or optimizing inventory management.
 
-- There are no missing values for order IDs, as the count matches the total number of rows in the dataset
-- The minimum quantity ordered is 1, and the maximum is 9, with the majority of transactions having a quantity ordered of 1 as indicated by the median and quartiles.
-- The mean price of each item ordered is approximately $184.52, with a standard deviation of $332.84, indicating significant variability in item prices.
-- The total amount of money made in 2019 was $16,513,908.56
-- The minimum quantity ordered is 1, and the maximum is 9, with the majority of transactions having a quantity ordered of 1 as indicated by the median and quartiles.
+4. Overall, the month-over-month growth rates suggest that sales are increasing at a steady pace over the course of the year. This suggests that the business is making progress towards achieving its goals and objectives.
+
+5. These findings indicate that the "Electronics" category generates higher revenue and has a significantly higher quantity ordered compared to the "Other" category. 
+
+6. This suggests that electronics products are the main drivers of sales revenue and volume in the dataset.
+
+7. The total amount of money made in 2019 was $16,513,908.56
+
 
 
 # Hypothesis
