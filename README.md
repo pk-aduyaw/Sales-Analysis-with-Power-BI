@@ -12,6 +12,10 @@
 
 [-Results]()
 
+[-Hypothesis]()
+
+[-Hypothesis Test Result]()
+
 [-Usage]()
 
 [-Contributing]()
@@ -55,12 +59,36 @@ Segment Analysis: Analyzing sales performance by different segments such as prod
 
 # Results 📈
 The analysis reveals insights such as:
+- Peak Months: We observe peaks in sales during certain months, December, October, and April. These months likely correspond to increased demand due to factors like holidays, promotions, or seasonal trends.
+- Trough Months: During the months of June, August, and September. These months may represent periods of lower consumer spending or quieter seasons for the business.
+- Opportunities for Improvement: By analyzing seasonality in sales, the business can identify opportunities to capitalize on peak months and mitigate challenges during slower periods. This could involve adjusting marketing strategies, offering targeted promotions, or optimizing inventory management.
+- Overall, the month-over-month growth rates suggest that sales are increasing at a steady pace over the course of the year. This suggests that the business is making progress towards achieving its goals and objectives.
+- These findings indicate that the "Electronics" category generates higher revenue and has a significantly higher quantity ordered compared to the "Other" category. 
+- This suggests that electronics products are the main drivers of sales revenue and volume in the dataset.
+
+
 
 - There are no missing values for order IDs, as the count matches the total number of rows in the dataset
 - The minimum quantity ordered is 1, and the maximum is 9, with the majority of transactions having a quantity ordered of 1 as indicated by the median and quartiles.
 - The mean price of each item ordered is approximately $184.52, with a standard deviation of $332.84, indicating significant variability in item prices.
 - The total amount of money made in 2019 was $16,513,908.56
 - The minimum quantity ordered is 1, and the maximum is 9, with the majority of transactions having a quantity ordered of 1 as indicated by the median and quartiles.
+
+
+# Hypothesis
+- Null Hypothesis (H0): The total revenue generated in 2019 is equal to or less than a predetermined benchmark or expectation.
+- Alternative Hypothesis (H1): The total revenue generated in 2019 is greater than the predetermined benchmark or expectation.
+
+# Hypothesis Test Result
+1. The observed total revenue in 2019 matches the benchmark exactly, suggesting that the business achieved its expected revenue target for the year.
+
+2. The extremely low p-value (close to zero) indicates a highly significant difference between the observed revenue and the benchmark. This suggests that the observed revenue is not simply due to random variation but is indeed significantly different from the benchmark.
+
+3. Therefore, we can reject the null hypothesis and conclude that the total revenue generated in 2019 is greater than or different from the benchmark.
+
+4. This finding suggests that the business has achieved its revenue target for the year and is on track to meet or exceed its goals.
+
+5. The results of the hypothesis test provide evidence that the business is making progress towards achieving its goals and objectives.
 
 
 
