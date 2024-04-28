@@ -64,4 +64,8 @@ Our sincere gratitude to Azubi Africa for the immense support and the amazing tr
 This project is licensed under the [MIT]() License.
 
 # Authors 👥: 
-
+- [Prince Kwabena Amoako Aduyaw](https://github.com/pk-aduyaw)
+- [Isaac Mawuli Fumey](https://github.com/aike-analytics)
+- [Patrick Maranga Moturi](https://github.com/Patoski254)
+- [Francis Nketsiah](https://github.com/nketsiahjnr)
+- [Leon Allen Maina](https://github.com/realeonallen)
